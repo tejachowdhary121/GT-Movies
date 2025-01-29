@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+      <nav class="main-menu">
+        <div>
+          <div class="user-info">
+            <img
+              src="./assets/profile.png"
+              alt="user" />
+            <p>Guru Teja</p>
+          </div>
+          <ul>
+            <li class="nav-item active">
+              <a href="#">
+                <i class="fa fa-map nav-icon"></i>
+                <span class="nav-text">Discover</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-arrow-trend-up nav-icon"></i>
+                <span class="nav-text">Trending</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-compact-disc nav-icon"></i>
+                <span class="nav-text">Album</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-circle-play nav-icon"></i>
+                <span class="nav-text">Playlist</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-heart nav-icon"></i>
+                <span class="nav-text">Favorites</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul>
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-user nav-icon"></i>
+              <span class="nav-text">Profile</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-gear nav-icon"></i>
+              <span class="nav-text">Settings</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#">
+              <i class="fa fa-right-from-bracket nav-icon"></i>
+              <span class="nav-text">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="content">
+        <div class="left-content">
+          <div class="slider-container">
+            <h1>Popular Playlist</h1>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/95b52c32-f5da-4fe6-956d-a5ed118bbdd2" alt=""/>
+                  <div class="slide-overlay">
+                    <h2>Best of 2024</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/6ddf81f5-2689-4f34-bf80-a1e07f14621c" alt=""/>
+                  <div class="slide-overlay">
+                    <h2>Party Starters</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/ab52d9d0-308e-43e0-a577-dce35fedd2a3" alt=""/>
+                  <div class="slide-overlay">
+                    <h2>Relaxing Tones</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/20c8fdd5-9f4a-4917-ae90-0239a52e8334" alt=""/>
+                  <div class="slide-overlay">
+                    <h2>Pick Your Mood</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/df461a99-2fb3-4d55-ac16-2e0c6dd783e1" alt=""/>
+                  <div class="slide-overlay">
+                    <h2>Made Just for You</h2>
+                    <button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="artists">
+            <h1>Featured Artists</h1>
+            <div class="artist-container containers">
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/Anirudh Ravichander.jpg"
+                  alt="" />
+                <p>Anirudh Ravichander</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/Thaman S.jpg"
+                  alt="" />
+                <p>Thaman S</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/Devi Sri Prasad.jpg"
+                  alt="" />
+                <p>Devi Sri Prasad</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/Bheems Ceciroleo.jpg"
+                  alt="" />
+                <p>Bheems Ceciroleo</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/Anup Rubens.jpg"
+                  alt="" />
+                <p>Anup Rubens</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/M.M. Keeravani.jpg"
+                  alt="" />
+                <p>M.M. Keeravani</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/A.R. Rahman.jpg"
+                  alt="" />
+                <p>A.R. Rahman</p>
+              </div>
+
+              <div class="artist">
+                <img
+                  src="./assets/Featured Artists/G.V. Prakash Kumar.jpg"
+                  alt="" />
+                <p>G.V. Prakash Kumar</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="albums">
+            <h1>Recommended Albums</h1>
+            <div class="album-container containers">
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="./assets/album cover/Devara Part 1/Devara R Albums.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Devara Part 1</h2>
+                  <p>Anirudh Ravichander</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="./assets/album cover/Pushpa 2 The Rule/Pushpa 2 The Rule R Albums.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Pushpa 2 The Rule</h2>
+                  <p>Devi Sri Prasad</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="./assets/album cover/Sankranthiki Vasthunam/Sankranthiki Vasthunam R Albums.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Sankranthiki Vastunnam</h2>
+                  <p>Bheems Ceciroleo</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="./assets/album cover/Thandel/Thandel R Albums.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>Thandel</h2>
+                  <p>Devi Sri Prasad</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <img
+                    src="./assets/album cover/MAD/MAD R Albums.jpg"
+                    alt="" />
+                </div>
+                <div>
+                  <h2>MAD</h2>
+                  <p>Bheems Ceciroleo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-content">
+          <div class="recommended-songs">
+            <h1>Recommended Songs</h1>
+            <div class="song-container">
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Devara Part 1/Devara R Songs.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Ayudha Pooja</h2>
+                  <p>Devara Part 1</p>
+                </div>
+                <span>2:54</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Game Changer/Game Changer R Songs.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Jaragandi</h2>
+                  <p>Game Changer</p>
+                </div>
+                <span>4:20</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Sankranthiki Vasthunam/Sankranthiki Vasthunam R Songs.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Meenu</h2>
+                  <p>Sankranthiki Vasthunam</p>
+                </div>
+                <span>4:45</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Daaku Maharaaj/Daaku Maharaaj R Songs.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Dabidi Dibidi</h2>
+                  <p>Daaku Maharaaj</p>
+                </div>
+                <span>4:01</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Bharateeyudu 2/Bharateeyudu 2 R Songs.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Souraa</h2>
+                  <p>Bharateeyudu 2</p>
+                </div>
+                <span>4:12</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Thandel/Thandel R Songs.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Bujji Thalli</h2>
+                  <p>Thandel</p>
+                </div>
+                <span>4:08</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Amaran/Amaran.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Hey Rangule</h2>
+                  <p>Amaran</p>
+                </div>
+                <span>3:49</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/Pushpa 2 The Rule/Pushap 2 The Rule R Songs.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Kissik</h2>
+                  <p>Pushpa 2 The Rule</p>
+                </div>
+                <span>4:08</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="./assets/album cover/MAD/MAD.jpg"
+                    alt="" />
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="song-title">
+                  <h2>Nuvvu Navvukuntu</h2>
+                  <p>MAD</p>
+                </div>
+                <span>3:24</span>
+                <!-- <audio controls>
+                  <source src="./assets/music/Nuvvu Navvukuntu.mp3" type="audio/mpeg" />
+                </audio> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="music-player">
+            <div class="album-cover">
+              <img src="" id="rotatingImage" alt="" />
+              <span class="point"></span>
+            </div>
+
+            <h2>Chuttamalle</h2>
+            <p>NTR | Devara Part 1</p>
+
+            <audio id="song">
+              <source src="Chuttamalle.mp3" type="audio/mpeg" />
+            </audio>
+
+            <input type="range" value="0" id="progress" />
+
+            <div class="controls">
+              <button class="backward">
+                <i class="fa-solid fa-backward"></i>
+              </button>
+              <button class="play-pause-btn">
+                <i class="fa-solid fa-play" id="controlIcon"></i>
+              </button>
+              <button class="forward">
+                <i class="fa-solid fa-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+    <script src="script.js"></script>
+  </body>
+</html>
